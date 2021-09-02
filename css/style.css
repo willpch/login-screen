@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+	display: block;
+	justify-content: center;
+}
+
+body {
+	background-color: rgba(0, 0, 0, 0.801);
+	
+}
+
+main {
+	align-items: center;
+	background-color: purple;
+	position: relative;
+	margin: 30vh 30vw;
+	padding: 20px;
+}
+
+.login-panel {
+	align-items: center;
+}
