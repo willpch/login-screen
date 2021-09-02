@@ -1,23 +1,36 @@
-*{
+body {
 	margin: 0;
 	padding: 0;
-	display: block;
-	justify-content: center;
-}
-
-body {
-	background-color: rgba(0, 0, 0, 0.801);
-	
+	font-family: Poppins, sans-serif;
+	background: rgb(78, 27, 136);
 }
 
 main {
-	align-items: center;
-	background-color: purple;
-	position: relative;
-	margin: 30vh 30vw;
-	padding: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	background: white;
+	border-radius: 10px;
 }
 
-.login-panel {
-	align-items: center;
+main h1 {
+	text-align: center;
+	padding-bottom: 20px;
+	border-bottom: 1px solid silver;
+}
+
+main form {
+	padding: 0 40px;
+	box-sizing: border-box;
+}
+
+form .txt-field {
+	position: relative;
+	margin: 30px 25%;
+}
+
+.txt-field input {
+	text-align: center;;
 }
