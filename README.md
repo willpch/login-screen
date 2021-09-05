@@ -1,3 +1,4 @@
 # login-screen
-Tela de login feita com HTML e CSS para treinar meu aprendizado.
+
+Login screen made by me to train my skills
 
